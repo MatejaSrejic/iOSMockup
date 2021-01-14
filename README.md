@@ -8,5 +8,5 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal iOS UI built in plain HTML and CSS, using SVGs and a few PNGs. Created by Mateja and YaBoiMarkoDev</h4>
+<h4 align="center">A minimal iOS UI built in plain HTML and CSS, using SVGs and a few PNGs. Created by Mateja and <a href="http://github.com/YaBoiMarkoDev/iOS14Mockup">YaBoiMarkoDev</p></h4>
 <p align="center"><font size="1">Kind of hard-coded, and not responsive on small screens, but let's not talk about that. :)</font></p>
