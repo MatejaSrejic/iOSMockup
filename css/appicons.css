@@ -1,0 +1,158 @@
+.icon {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+.icon::before {
+  content: "​";
+}
+
+.mail {
+  background-image: url("../icons/mail.svg");
+  top: 60px;
+  left: 50px;
+}
+.calendar {
+  background-image: url("../icons/calendar.svg");
+  top: 60px;
+  left: 110px;
+}
+.photos {
+  background-image: url("../icons/photos.svg");
+  top: 60px;
+  left: 170px;
+}
+.camera {
+  background-image: url("../icons/camera.svg");
+  top: 60px;
+  left: 230px;
+}
+
+/* start of second row */
+.maps {
+  background-image: url("../icons/maps.png");
+  top: 115px;
+  left: 50px;
+}
+.clock {
+  background-image: url("../icons/clock.svg");
+  top: 115px;
+  left: 110px;
+}
+.weather {
+  background-image: url("../icons/weather.svg");
+  top: 115px;
+  left: 170px;
+}
+.calculator {
+  background-image: url("../icons/calculator.svg");
+  top: 115px;
+  left: 230px;
+}
+
+/* start of third row */
+.myshortcuts {
+  background-image: url("../icons/myshortcuts.svg");
+  top: 175px;
+  left: 50px;
+}
+.notes {
+  background-image: url("../icons/notes.svg");
+  top: 175px;
+  left: 110px;
+}
+.reminders {
+  background-image: url("../icons/reminders.svg");
+  top: 175px;
+  left: 170px;
+}
+.files {
+  background-image: url("../icons/files.svg");
+  top: 175px;
+  left: 230px;
+}
+/* start of fourth row */
+.health {
+  background-image: url("../icons/health.svg");
+  top: 235px;
+  left: 50px;
+}
+.appstore {
+  background-image: url("../icons/appstore.svg");
+  top: 235px;
+  left: 110px;
+}
+/* start of fifth row */
+.wallet {
+  background-image: url("../icons/wallet.svg");
+  top: 295px;
+  left: 50px;
+}
+.settings {
+  background-image: url("../icons/settings.svg");
+  top: 295px;
+  left: 110px;
+}
+/* widget */
+.widget-2 {
+  width: 107px;
+  height: 107px;
+  position: absolute;
+  background-image: url('../widgets/applemusic-widget.png');
+  background-repeat: no-repeat;
+  background-size: 107px;
+  border-radius: 0.8rem;
+  top: 235px;
+  left: 169px;
+}
+
+.widget-2::before {
+  content: "​";
+}
+.widget-4 {
+  width: 225px;
+  height: 107px;
+  position: absolute;
+  background-image: url('../widgets/calendar-widget.png');
+  background-repeat: no-repeat;
+  background-size: 225px;
+  border-radius: 0.8rem;
+  top: 355px;
+  left: 50px;
+}
+
+.widget-4::before {
+  content: "​";
+}
+
+/* start of bottom bar */
+.bottombar {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 100px;
+}
+
+.call {
+  background-image: url("../icons/phone.png");
+  top: 403px;
+  left: 6px;
+}
+.safari {
+  background-image: url("../icons/safari.svg");
+  top: 403px;
+  left: 63px;
+}
+.iosmessage {
+  background-image: url("../icons/iosmessage.svg");
+  top: 403px;
+  left: 119px;
+}
+.itunes {
+  background-image: url("../icons/itunes.svg");
+  top: 403px;
+  left: 174px;
+}
