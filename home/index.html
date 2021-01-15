@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iOS 14</title>
+    <link rel="icon" href="https://img.icons8.com/color/452/ios-logo.png">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="ui">
+      <div class="lock"></div>
+      <div class="time"></div>
+      <div class="date"></div>
+      <div class="flash"></div>
+      <div class="camera"></div>
+    </div>
+  </div>
+  <div class="unlock"></div>
+
+<script>
+document.querySelector('.unlock').addEventListener('click', function(){
+  q = window.location.href;
+  q1 = q.split('/');
+  if (q[q.length-1] == '/') {
+    q1.pop()
+  } else if (q[q.length-1] == 'l') {
+    // user went to /index.html instead of /
+    q1.pop()
+  }
+  q1.pop();
+  q = q1.join('/');
+  window.location.href=q;
+})
+</script>
+</body>
+</html>
