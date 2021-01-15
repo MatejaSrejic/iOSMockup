@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'SF';
+  src: url('font.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'SF';
+  src: url('font400.otf');
+  font-weight: 400;
+}
+
+body {
+  background-position-x: 10px;
+  background-position-y: 10px;
+  background-image: url('../img/screen-mockup.png');
+  background-repeat: no-repeat;
+  background-size: 300px;
+  font-family: 'SF';
+  font-weight: 400;
+}
+
+.time {
+  position: absolute;
+  font-size: 48px;
+  color: white;
+  top: 100px;
+  left: 120px;
+}
+
+.time::before {
+  content: '9:41';
+}
+
+.lock {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url('lock.png');
+}
+
+.lock::before {
+  content: "​";
+}
+
+.date {
+  color: white;
+  position: absolute;
+  top: 155px;
+  left: 80px;
+}
+
+.date::before {
+  content: "Wednesday, August 19"
+}
+
+.flash {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+  left: 60px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url('../icons/flash.svg');
+}
+
+.flash::before {
+  content: "​";
+}
+
+.camera {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+  left: 240px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url('../icons/camera.svg');
+}
+
+.camera::before {
+  content: "​";
+}
+
+.unlock {
+  cursor: pointer;
+  position: absolute;
+  top: 560px;
+  left: 110px;
+  width: 108px;
+  height: 25px;
+}
